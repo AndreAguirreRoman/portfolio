@@ -4,7 +4,7 @@
   "description": "Basic skeleton codebase for React/Redux/Router applications.",
   "engines": {
     "node": "15.12.0"
-  },  
+  },
   "scripts": {
     "preinstall": "npm set audit false",
     "start": "webpack-dev-server --config webpack/dev.config.js --watch",
@@ -50,7 +50,7 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "clean-webpack-plugin": "^0.1.16",
-    "copy-webpack-plugin": "^8.1.0",
+    "copy-webpack-plugin": "4.5.2",
     "cross-env": "^5.2.0",
     "css-loader": "^1.0.0",
     "draft-js": "^0.11.7",
