@@ -6,7 +6,7 @@
     "node": "15.12.0"
   },  
   "scripts": {
-    "preinstall": "cp env.js",
+    "preinstall": "npm set audit false",
     "start": "webpack-dev-server --config webpack/dev.config.js --watch",
     "build": "cross-env NODE_ENV=production webpack --config webpack/prod.config.js --progress --display-error-details --color",
     "heroku-postbuild": "npm run build",
